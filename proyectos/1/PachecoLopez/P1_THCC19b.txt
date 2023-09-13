@@ -1,0 +1,10 @@
+Map Reading, es el titulo del fascículo subjeti más interesante del tomo, y habla sobre como los lenguajes de alto nivel pueden manejar instrucciones que nos permiten administrar la memoria de forma automática, como sabemos una de las partes mas importantes del diseño general de una computadora es el mapa de memoria, el cual es la lista de las partes de la memoria donde se almacenan las funciones de la maquina, en el caso de BASIC este permitía que para leer la memoria no fuese necesario saber detalles específicos del mapa de memoria, y esto fue algo maravilloso en muchos sentidos pues permitía que ciertas instrucciones fuesen dadas desde un inicio para poder trabajar sin necesidad de dar instrucciones a la maquina desde cero, reservando un lugar para cada set de instrucciones de la máquina, por ejemplo:
+En el mapa de memoria las instrucciones precargadas se gestionaban de la siguiente manera:
+función	memoria
+Kernel	1K
+Sistema Operativo	5K
+Interprete básico	12K
+Generador de caracteres	2K
+Entradas y salidas	4K
+RAM	1.5K
+Buffers	512 Bytes
